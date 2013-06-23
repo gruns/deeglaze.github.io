@@ -1,0 +1,191 @@
+body {
+    background-color: #202020;
+    color: #F2F2F2;
+    font-family: Arial, Verdana, Tahoma;
+    font-size: 14pt;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #a0a0d0;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #c0c0ff;
+}
+
+#header {
+    background-color: transparent;
+    color: #F0F0FF;
+    text-align: center;
+}
+
+#footer {
+    background-color: transparent;
+    color: #F0F0FF;
+    font-size: 8pt;
+    text-align: center;
+}
+
+#shell {
+    background-color: #4C4C4C;
+    width: 800px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin: 10px auto 0 auto;
+}
+
+#main {
+    clear: both;
+    margin-bottom: 10px;
+    position: relative;
+    left: 10px;
+    border-top: 1px solid #A0A0A0;
+    width: 780px;
+    text-align: center;
+}
+
+#work {
+    text-align: left;
+}
+#work-bio {
+    background: url(bio.png) no-repeat top left;
+    position: relative;
+    padding-top: 30px;
+    top: 20px;
+}
+
+#work-projects {
+    background: url(projects.png) no-repeat top left;
+    padding-top: 35px;
+    font-size: 12pt;
+    text-align: left;
+}
+
+#publications {
+    position: relative;
+    top: 20px;
+    background: url(publications.png) no-repeat top left;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-size: 12pt;
+    text-align: left;
+}
+
+#accepted {
+    background: url(accepted.png) no-repeat top right;
+    position: relative;
+    top: 20px;
+    padding-top: 50px;
+}
+
+#submitted {
+    background: url(submitted.png) no-repeat top right;
+    position: relative;
+    top: 20px;
+    padding-top: 50px;
+}
+
+#in-revision {
+    background: url(in-revision.png) no-repeat top right;
+    position: relative;
+    top: 50px;
+    padding-top: 50px;
+}
+
+
+#publications span {
+    font-size: 9pt;
+    font-style: italic;
+}
+
+.pub-links {
+    font-size: 10pt;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+#talks {
+    position: relative;
+    top: 30px;
+    background: url(talks.png) no-repeat top left;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 12pt;
+}
+
+#resume {
+    position: relative;
+    top: 30px;
+    padding-top: 30px;
+}
+
+#teaching {
+    position: relative;
+    top: 30px;
+    background: url(teaching.png) no-repeat top left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+#teaching-current {
+    position: relative;
+    left: 20px;
+}
+
+#teaching-previous {
+    font-size: 10pt;
+    color: #a2a2a2;
+}
+
+#teaching-current h4 {
+    position: relative;
+    left: -20px;
+}
+
+#interests {
+    background: url(interests.png) no-repeat top left;
+    padding-top: 50px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 10pt;
+    background-color: transparent;
+    color: #d2d2d2;
+}
+
+#publication {
+    clear: both;
+    margin-bottom: 10px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 780px;
+    text-align: left;
+}
+
+#publication h3 {
+    font-family: Times New Roman;
+}
+
+#publication span {
+    clear: both;
+    position: relative;
+    left: 10px;
+    font-family: Helvetica, Tahoma, Arial;
+    font-size: 12pt;
+    text-align: left;
+}
+
+#publication p {
+    font-family: Times New Roman;
+    text-align: justify;
+}
+
+#racket {
+    font-family: Arial;
+    color: #a0a0ff;
+}

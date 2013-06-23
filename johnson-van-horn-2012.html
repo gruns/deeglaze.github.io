@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Designing Precise Pushdown Higher-Order Flow Analyses</title>
+<link rel="stylesheet" type="text/css" href="ianj.css" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+
+<div id="publication">
+  <h3>Designing Precise Higher-Order Pushdown Flow Analyses</h3>
+  <span>J. Ian Johnson and David Van Horn</span><br />
+  <span>Preprint, 2012</span>
+  <p>Formalisms for context-free approaches to higher-order control-flow
+analysis are complex and require significant effort to prove correct.
+However, these approaches are enticing because they provide improved
+precision over finite state approaches. We present a new method for
+deriving context-free analyses that results in &ldquo;obviously correct&rdquo;
+formalisms that consists of making small changes to the original
+concrete semantics. We validate this method by using it to derive
+existing context-free analyses from abstract machines. We further
+exercise the technique by applying it to abstract machines that more
+closely represent real language implementations and consequently
+derive analyses more precise than existing ones. Specifically, we use
+an escape analysis to derive better stack allocation, and use garbage
+collection to derive better heap allocation. We also present a novel
+semantics for <font id="racket">call/cc</font> that, when turned into an analysis, handles
+non-escaping continuations more precisely than prior treatments of
+first-class control.</p>
