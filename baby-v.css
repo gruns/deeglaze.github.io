@@ -1,0 +1,30 @@
+#v-shell {
+    background-color: #4C4C4C;
+    width: 940px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin: 10px auto 0 auto;
+}
+
+#v-main {
+    clear: both;
+    margin-bottom: 10px;
+    position: relative;
+    left: 10px;
+    border-top: 1px solid #A0A0A0;
+    width: 920px;
+    text-align: center;
+}
+
+#header-image div {
+    float: right;
+}
+
+#birth-header div {
+position: relative;
+width: 920px;
+}
+
+#birth-header h1 {
+font-family: 'Quintessential', cursive;
+}
