@@ -7,6 +7,7 @@
 }
 
 #v-main {
+    font-family: 'Raleway', sans serif;
     clear: both;
     margin-bottom: 10px;
     position: relative;
@@ -16,11 +17,21 @@
     text-align: center;
 }
 
-#header-image div {
-    float: right;
+#v-main p {
+    text-align: left;
+}
+
+#v-main h2 {
+    font-family: 'Lancelot', serif;
+    font-size: 32pt;
+}
+
+div.img {
+    text-align: center;
 }
 
 #birth-header div {
+font-family: 'Playfair Display SC', serif;
 position: relative;
 width: 920px;
 }
