@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - deeglaze
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - deeglaze/scribble-latex-utils
+  - deeglaze/slideshow-helpers
+  - google/go-configfs-tsm
+  - google/go-sev-guest
+  - google/go-tpm-tools

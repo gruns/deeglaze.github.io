@@ -2,96 +2,61 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Dionna Amalie Glaze
     - name: Date of Birth
-      value: 14th March 1879
+      value: 20th July 1987
     - name: Languages
-      value: English, German
+      value: English, Japanese
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Northeastern University, Boston, MA
+      year: 2015
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - title: Automating the Abstract Interpretation of Abstract Machines
+    - title: Bachelor's Degree of Science in Computer Science
+      institution: University of Texas at Austin
+      year: 2009
+    - title: Bachelor's Degree of Science in Pure Mathematics
+      institution: University of Texas at Austin
+      year: 2009
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Senior Software Engineer
+      institution: Google LLC
+      year: 2021 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Lead the virtual firmware code signing and transparency project.
+        - Active in IETF standards definitions for code reference values in RATS framework.
+        - Mentor junior and peer developers in writing, influence, and task management.
+    - title: Software Engineer
+      institution: Google LLC
+      year: 2017 - 2021
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Developed confidential computing support for sandboxing.
+        - Maintained the toolchain for the Asylo.dev project.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/google/go-sev-guest">go-sev-guest</a>
+      year: 2022 - Now
+      description: A safe interface for AMD SEV-SNP guest device interaction, and verification and validation logic for use by verifier roles.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: <a href="https://github.com/google/go-configfs-tsm">go-configfs-tsm</a>
+      year: 2023 - Now
+      description: A safe interface for Linux TEE Security Module (TSM) interactions.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Todo
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Hosting dinner parties, reading, writing, chess, board games, video games, cooking.
