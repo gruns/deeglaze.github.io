@@ -8,7 +8,6 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     imagemagick \
     build-essential \
     zlib1g-dev \
-    jupyter-nbconvert \
     inotify-tools procps && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
 
