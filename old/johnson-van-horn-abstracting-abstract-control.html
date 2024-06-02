@@ -1,55 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<title>Abstracting Abstract Control</title>
-<link rel="stylesheet" type="text/css" href="ianj.css" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-</head>
+  <head>
+    <title>Abstracting Abstract Control</title>
+    <link rel="stylesheet" type="text/css" href="ianj.css" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  </head>
 
-<div id="publication">
-  <h3>Abstracting Abstract Control</h3>
-  <span>J. Ian Johnson and David Van Horn</span><br />
-  <a href="http://dl.acm.org/citation.cfm?id=2661098">DL ACM</a>
-  <a href="http://arxiv.org/abs/1305.3163">Extended version, arXiv</a>
-  <p>The strength of a dynamic language is also its weakness: run-time
-flexibility comes at the cost of compile-time predictability.
-Many of the hallmarks of dynamic languages such as closures,
-continuations, various forms of reflection, and a lack of static types
-make many programmers rejoice, while compiler writers, tool
-developers, and verification engineers lament.
-The dynamism of these features simply confounds statically reasoning
-about programs that use them.
-Consequently, static analyses for dynamic languages are few, far
-between, and seldom sound.</p>
+  <div id="publication">
+    <h3>Abstracting Abstract Control</h3>
+    <span>J. Ian Johnson and David Van Horn</span><br />
+    <a href="http://dl.acm.org/citation.cfm?id=2661098">DL ACM</a>
+    <a href="http://arxiv.org/abs/1305.3163">Extended version, arXiv</a>
+    <p>
+      The strength of a dynamic language is also its weakness: run-time flexibility comes at the cost of compile-time predictability. Many of the
+      hallmarks of dynamic languages such as closures, continuations, various forms of reflection, and a lack of static types make many programmers
+      rejoice, while compiler writers, tool developers, and verification engineers lament. The dynamism of these features simply confounds statically
+      reasoning about programs that use them. Consequently, static analyses for dynamic languages are few, far between, and seldom sound.
+    </p>
 
-<p>The &ldquo;abstracting abstract machines&rdquo; (AAM) approach to constructing
-static analyses has recently been proposed as a method to ameliorate
-the difficulty of designing analyses for such language features.
-The approach, so called because it derives a function for the sound
-and computable approximation of program behavior starting from the
-abstract machine semantics of a language, provides a viable approach
-to dynamic language analysis since all that is required is a machine
-description of the interpreter.</p>
+    <p>
+      The &ldquo;abstracting abstract machines&rdquo; (AAM) approach to constructing static analyses has recently been proposed as a method to
+      ameliorate the difficulty of designing analyses for such language features. The approach, so called because it derives a function for the sound
+      and computable approximation of program behavior starting from the abstract machine semantics of a language, provides a viable approach to
+      dynamic language analysis since all that is required is a machine description of the interpreter.
+    </p>
 
-<p>The AAM recipe as originally described produces finite state
-abstractions: the behavior of a program is approximated as a finite
-state machine.
-Such a model is inherently imprecise when it comes to reasoning about
-the control stack of the interpreter: a finite state machine cannot
-faithfully represent a stack.
-Recent advances have shown that higher-order programs can be
-approximated with pushdown systems.
-However, such models, founded in automata theory, either breakdown or
-require significant engineering in the face of dynamic language
-features that inspect or modify the control stack.</p>
+    <p>
+      The AAM recipe as originally described produces finite state abstractions: the behavior of a program is approximated as a finite state machine.
+      Such a model is inherently imprecise when it comes to reasoning about the control stack of the interpreter: a finite state machine cannot
+      faithfully represent a stack. Recent advances have shown that higher-order programs can be approximated with pushdown systems. However, such
+      models, founded in automata theory, either breakdown or require significant engineering in the face of dynamic language features that inspect or
+      modify the control stack.
+    </p>
 
-<p>In this paper, we tackle the problem of bringing pushdown flow
-analysis to the domain of dynamic language features.  We revise the
-abstracting abstract machines technique to target the stronger
-computational model of pushdown systems.
-In place of automata theory, we use only abstract machines and
-memoization.
-As case studies, we show the technique applies to a language with
-closures, garbage collection, stack-inspection, and first-class
-composable continuations.</p>
+    <p>
+      In this paper, we tackle the problem of bringing pushdown flow analysis to the domain of dynamic language features. We revise the abstracting
+      abstract machines technique to target the stronger computational model of pushdown systems. In place of automata theory, we use only abstract
+      machines and memoization. As case studies, we show the technique applies to a language with closures, garbage collection, stack-inspection, and
+      first-class composable continuations.
+    </p>
+  </div>
+</html>

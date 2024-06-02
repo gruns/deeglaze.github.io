@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Blogging again"
-date:   2024-05-25 14:30:00 PDT
+title: "Blogging again"
+date: 2024-05-25 14:30:00 PDT
 categories: jekyll update
 ---
+
 I've had a few blogs in my lifetime. College. Grad school. First time parent. Pretty much every one of them had math in them.
 Yes, even when writing to my infant in some hypothetical future when they could understand me.
 Now I'm starting back up with my "professional" slice of life, but still with a fair amount of philosophizing and experimental thinking.

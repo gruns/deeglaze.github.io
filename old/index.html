@@ -1,248 +1,215 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<title>Dionna Amalie Glaze</title>
-<link rel="stylesheet" type="text/css" href="deeglaze.css" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-</head>
+  <head>
+    <title>Dionna Amalie Glaze</title>
+    <link rel="stylesheet" type="text/css" href="deeglaze.css" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  </head>
 
-<body>
-<div id="shell">
+  <body>
+    <div id="shell">
+      <div id="header">
+        <div style="float: left; margin-left: 10px; margin-bottom: 4px; padding-top: 30px; padding-left: 30px">
+          <h1>Dionna Amalie Glaze, Ph.D.</h1>
+          Northeastern University CCIS PRL Alumna<br /><br />
+          <img
+            src="toreachme.png"
+            title="Sorry to inconvience those of you whom like copy-paste."
+            alt="You need images to see my contact information."
+          />
+        </div>
 
-  <div id="header">
-    <div style="float: left; margin-left: 10px; margin-bottom: 4px;
-    padding-top: 30px; padding-left: 30px">
-    <h1>Dionna Amalie Glaze, Ph.D.</h1>
-    Northeastern University CCIS PRL Alumna<br /><br />
-    <img src="toreachme.png" title="Sorry to inconvience those of you whom like copy-paste."
-alt="You need images to see my contact information."/>
-    </div>
-
-    <div style="float: right; margin-right: 20px; margin-bottom: 4px;
-    margin-top: 4px; height: 365px">
-    <img src="me.jpg" alt="Portrait"
-	 title="Hello world!" />
-    </div>
-  </div>
-
-  <div id="main">
-
-    <div id="work">
-      <div id="work-bio">
-	<p>I have transitioned to a new name, Dionna Amalie Glaze. Old publications are here under my old name for posterity only.</p>
-
-        <p>
-        I have successfully defended my <a href="diss.pdf">dissertation</a> on automating the construction of higher-order program analyses.
-        Many thanks to my advisor, <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>, co-advisor, <a href="http://www.ccs.neu.edu/home/shivers/">Olin Shivers</a>, mentor and committee member, <a href="http://www.ccs.neu.edu/home/wand/">Mitch Wand</a>, and external committee member, <a href="https://users.soe.ucsc.edu/~cormac/">Cormac Flanagan</a>.
-
-        <p>Generally, my work is on finding the right mathematical
-          frameworks to concisely, correctly and easily define sound,
-          precise and efficient program analyses for modern programming
-          languages.  There are three (or four) dimensions of
-          challenge for scaling such analyses.</p>
-        <ol>
-          <li>Efficiency</li>
-          <li>Verifiability</li>
-          <li>Precision</li>
-          <li>(Grokability)</li>
-        </ol>
-
-        <p>There is a promising approach to systematically and easily
-        construct provably sound and precise analyses by
-        transforming abstract machines into <i>abstract</i> abstract
-        machines, but the method lacks maturity. My work seeks to
-        extend this method by importing innovations in both worlds of
-        abstract machines (programming language interpreters) and
-        unproven, but "works in practice" methods for improving
-        analysis performance (or proven, but only for first-order
-        languages). A primary constraint is maintaining the systematic
-        and intuitive methods for derivation. The power is behind the
-        intuitions, so a secondary goal in my work is to bring
-        powerful analysis to a larger audience.</p>
-
-        <br /><br />
+        <div style="float: right; margin-right: 20px; margin-bottom: 4px; margin-top: 4px; height: 365px">
+          <img src="me.jpg" alt="Portrait" title="Hello world!" />
+        </div>
       </div>
 
-      <div id="work-projects">
-        <p><b>Model-checking as contract checking</b>: <br />
-          Temporal contracts allow programmers to separately specify temporal properties their programs should satisfy by imposing a runtime monitor for enforcing these safety properties.
-          Abstract interpretation of a language with temporal contracts is (sound) model-checking that language (<i>ongoing</i>)
-        </p>
+      <div id="main">
+        <div id="work">
+          <div id="work-bio">
+            <p>I have transitioned to a new name, Dionna Amalie Glaze. Old publications are here under my old name for posterity only.</p>
 
-        <p><b>Combining intepreters and abstract interpreters</b>: <br />
-          Direct threading in bytecodes = <a href="#coaam">abstract compilation</a>.<br />
-          JIT stack allocation = <a href="#pushdown">pushdown escape analysis with disposable stacks</a>.
-        </p>
+            <p>
+              I have successfully defended my <a href="diss.pdf">dissertation</a> on automating the construction of higher-order program analyses.
+              Many thanks to my advisor, <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>, co-advisor,
+              <a href="http://www.ccs.neu.edu/home/shivers/">Olin Shivers</a>, mentor and committee member,
+              <a href="http://www.ccs.neu.edu/home/wand/">Mitch Wand</a>, and external committee member,
+              <a href="https://users.soe.ucsc.edu/~cormac/">Cormac Flanagan</a>.
+            </p>
 
-        <p><b>Generalizing and formalizing analyzers in "the wild"</b>: <br />
-          SSA-based sparse analyses = abstract self-adjusting computation (<i>ongoing</i>)
-        </p>
+            <p>
+              Generally, my work is on finding the right mathematical frameworks to concisely, correctly and easily define sound, precise and
+              efficient program analyses for modern programming languages. There are three (or four) dimensions of challenge for scaling such
+              analyses.
+            </p>
+            <ol>
+              <li>Efficiency</li>
+              <li>Verifiability</li>
+              <li>Precision</li>
+              <li>(Grokability)</li>
+            </ol>
 
-        <p><b>The essence of summarization-based analysis</b>:<br />
-          Pushdown flow analysis for higher-order languages has two
-          combating formalisms that are both unfortunately
-          complex. There is a systematic approach to derive pushdown
-          analyses that is simple and <a href="#pushdown">does not
-          need expert knowledge</a> on reachability queries for
-          context-free languages to implement.
-          </p>
-      </div>
-    </div>
+            <p>
+              There is a promising approach to systematically and easily construct provably sound and precise analyses by transforming abstract
+              machines into <i>abstract</i> abstract machines, but the method lacks maturity. My work seeks to extend this method by importing
+              innovations in both worlds of abstract machines (programming language interpreters) and unproven, but "works in practice" methods for
+              improving analysis performance (or proven, but only for first-order languages). A primary constraint is maintaining the systematic and
+              intuitive methods for derivation. The power is behind the intuitions, so a secondary goal in my work is to bring powerful analysis to a
+              larger audience.
+            </p>
 
-    <div id="publications">
-      <div style="margin-top: 20px;"><a href="https://dblp.uni-trier.de/pers/hd/g/Glaze:Dionna_Amalie">My DBLP page</a></div>
-      <div id="accepted">
-        <a name="aac"></a>
-        <b><a href="http://www.dynamic-languages-symposium.org/dls-14/">DLS 2014</a></b>
-        <b>Abstracting Abstract Control.</b><br/>
-          With <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>.
-          <div class="pub-links">
-            [<a href="johnson-van-horn-abstracting-abstract-control.html">Abstract</a>]
-            [<a href="http://dl.acm.org/citation.cfm?id=2661098">DL ACM</a>]
-            [<a href="http://arxiv.org/abs/1305.3163">Extended Paper</a>]
-            [<a href="aac.bib">BibTeX</a>]
+            <br /><br />
           </div>
-        <a name="ipdcfa"></a>
-        <b><a href="https://journals.cambridge.org/action/displayJournal?jid=JFP">Journal of Functional Programming</a>: Pushdown flow analysis with abstract garbage collection</b><br/>
-        With <a href="http://ilyasergey.net/">Ilya Sergey</a>,
-             <a href="http://www.cwearl.com/">Christopher Earl</a>,
-             <a href="http://matt.might.net">Matt Might </a> and
-             <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>.
-        <div class="pub-links">
-          [<a href="jfp-2014-ipdcfa.html">Abstract</a>]
-          [<a href="http://journals.cambridge.org/repo_A92R5mBp">PDF</a>]
-          [<a href="gcpdcfa-jfp.bib">BibTeX</a>]
+
+          <div id="work-projects">
+            <p>
+              <b>Model-checking as contract checking</b>: <br />
+              Temporal contracts allow programmers to separately specify temporal properties their programs should satisfy by imposing a runtime
+              monitor for enforcing these safety properties. Abstract interpretation of a language with temporal contracts is (sound) model-checking
+              that language (<i>ongoing</i>)
+            </p>
+
+            <p>
+              <b>Combining intepreters and abstract interpreters</b>: <br />
+              Direct threading in bytecodes = <a href="#coaam">abstract compilation</a>.<br />
+              JIT stack allocation = <a href="#pushdown">pushdown escape analysis with disposable stacks</a>.
+            </p>
+
+            <p>
+              <b>Generalizing and formalizing analyzers in "the wild"</b>: <br />
+              SSA-based sparse analyses = abstract self-adjusting computation (<i>ongoing</i>)
+            </p>
+
+            <p>
+              <b>The essence of summarization-based analysis</b>:<br />
+              Pushdown flow analysis for higher-order languages has two combating formalisms that are both unfortunately complex. There is a
+              systematic approach to derive pushdown analyses that is simple and <a href="#pushdown">does not need expert knowledge</a> on
+              reachability queries for context-free languages to implement.
+            </p>
+          </div>
         </div>
-        <a name="coaam"></a>
-        <b><a href="http://icfpconference.org/icfp2013/">ICFP 2013</a>: Optimizing Abstract Abstract Machines.</b><br/>
-        With <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>,
-             <a href="http://matt.might.net">Matt Might</a> and
-             <a href="https://github.com/labichn">Nicholas Labich</a>.
-        <div class="pub-links">
-          [<a href="johnson-labich-might-van-horn-2013.html">Abstract</a>]
-          [<a href="http://arxiv.org/abs/1211.3722">arXiv</a>]
-          [<a href="coaam-draft.pdf">PDF</a>]
-          [<a href="oaam.bib">BibTeX</a>]
+
+        <div id="publications">
+          <div style="margin-top: 20px"><a href="https://dblp.uni-trier.de/pers/hd/g/Glaze:Dionna_Amalie">My DBLP page</a></div>
+          <div id="accepted">
+            <a name="aac"></a>
+            <b><a href="http://www.dynamic-languages-symposium.org/dls-14/">DLS 2014</a></b>
+            <b>Abstracting Abstract Control.</b><br />
+            With <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>.
+            <div class="pub-links">
+              [<a href="johnson-van-horn-abstracting-abstract-control.html">Abstract</a>] [<a href="http://dl.acm.org/citation.cfm?id=2661098"
+                >DL ACM</a
+              >] [<a href="http://arxiv.org/abs/1305.3163">Extended Paper</a>] [<a href="aac.bib">BibTeX</a>]
+            </div>
+            <a name="ipdcfa"></a>
+            <b
+              ><a href="https://journals.cambridge.org/action/displayJournal?jid=JFP">Journal of Functional Programming</a>: Pushdown flow analysis
+              with abstract garbage collection</b
+            ><br />
+            With <a href="http://ilyasergey.net/">Ilya Sergey</a>, <a href="http://www.cwearl.com/">Christopher Earl</a>,
+            <a href="http://matt.might.net">Matt Might </a> and <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>.
+            <div class="pub-links">
+              [<a href="jfp-2014-ipdcfa.html">Abstract</a>] [<a href="http://journals.cambridge.org/repo_A92R5mBp">PDF</a>] [<a href="gcpdcfa-jfp.bib"
+                >BibTeX</a
+              >]
+            </div>
+            <a name="coaam"></a>
+            <b><a href="http://icfpconference.org/icfp2013/">ICFP 2013</a>: Optimizing Abstract Abstract Machines.</b><br />
+            With <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>, <a href="http://matt.might.net">Matt Might</a> and
+            <a href="https://github.com/labichn">Nicholas Labich</a>.
+            <div class="pub-links">
+              [<a href="johnson-labich-might-van-horn-2013.html">Abstract</a>] [<a href="http://arxiv.org/abs/1211.3722">arXiv</a>] [<a
+                href="coaam-draft.pdf"
+                >PDF</a
+              >] [<a href="oaam.bib">BibTeX</a>]
+            </div>
+            <a name="concrete-summaries"></a>
+            <b><a href="http://hopa.cs.rhul.ac.uk/">HOPA 2013</a>: Concrete Semantics for Pushdown Analysis: The Essence of Summarization.</b><br />
+            With <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>. <i>Abstract presented at HOPA</i>.
+            <div class="pub-links">
+              [<a href="johnson-van-horn-concrete-summaries-2013.html">Abstract</a>] [<a href="http://arxiv.org/abs/1305.3163">arXiv</a>] [<a
+                href="concrete-summaries-2013.pdf"
+                >PDF</a
+              >]
+            </div>
+          </div>
+
+          <div id="submitted"></div>
+
+          <div id="in-revision">
+            <a name="pushdown"></a><b>Designing Precise Pushdown Higher-Order Flow Analyses.</b> With
+            <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>.
+            <div class="pub-links">[<a href="johnson-van-horn-2012.html">Abstract</a>]</div>
+          </div>
         </div>
-        <a name="concrete-summaries"></a>
-        <b><a href="http://hopa.cs.rhul.ac.uk/">HOPA 2013</a>:
-           Concrete Semantics for Pushdown Analysis: The Essence of Summarization.</b><br/>
-        With <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>.
-        <i>Abstract presented at HOPA</i>.
-        <div class="pub-links">
-          [<a href="johnson-van-horn-concrete-summaries-2013.html">Abstract</a>]
-          [<a href="http://arxiv.org/abs/1305.3163">arXiv</a>]
-          [<a href="concrete-summaries-2013.pdf">PDF</a>]
+
+        <div id="talks">
+          <b>Abstracting Abstract Control</b>
+          <span>At <a href="http://www.dynamic-languages-symposium.org/dls-14/">DLS 2014</a></span>
+          <div class="pub-links">[<a href="dls2014-c.pdf">Slides</a>]</div>
+          <b>Optimizing Abstract Abstract Machines</b>
+          <span>At <a href="http://icfpconference.org/icfp2013/">ICFP 2013</a></span>
+          <div class="pub-links">[<a href="icfp2013-c.pdf">Slides</a>]</div>
+          <b>Concrete Semantics for Pushdown Analysis: The Essence of Summarization.</b>
+          <span>At <a href="http://hopa.cs.rhul.ac.uk/">HOPA 2013</a></span>
+          <div class="pub-links">[<a href="hopa2013.pdf">Slides</a>]</div>
+          <b>Designing Precise Pushdown Higher-Order Flow Analyses.</b>
+          <span> At <a href="http://researcher.watson.ibm.com/researcher/view_project.php?id=3198">IBM PL day 2012</a> </span>
+          <div class="pub-links">[<a href="ibmpl2012-slides.pdf">Slides</a>]</div>
+          <i>All sources to talks are available for education purposes on <a href="https://github.com/deeglaze/ianj-talks">Github</a></i>
+        </div>
+
+        <div id="teaching">
+          <div id="teaching-current"></div>
+
+          <div id="teaching-previous">
+            <h4>Fundamentals of Computer Science 2 2510 (Summer 2012)</h4>
+            TA Office hours: Fridays 13:30-15:30<br />
+            Location: WVH 308<br />
+            <h4>Compilers 4410 (Spring 2012)</h4>
+            TA Office hours: By appointment<br />
+            Location: WVH 308<br />
+            <h4>Fundamentals of Computer Science 1 2500 (Fall 2011)</h4>
+            TA Office hours: Monday 10:00 - 12:00<br />
+            Location: WVH 308<br />
+            <h4>Fundamentals of Computer Science 2 2510 (Spring 2011)</h4>
+            Location: WVH 308<br />
+            <h4>Program Design Paradigms 5010 (Fall 2010)</h4>
+            TA office hours: Friday 16:30 - 18:30<br />
+            Location: WVH 308<br />
+            <h4>Logic &amp; Computation 2800 (Spring 2010)</h4>
+            TA office hours: Wednesday 9:30 - 10:30 and 12:30 - 13:30<br />
+            Location: WVH 316<br />
+            <h4>Logic &amp; Computation 2800 (Fall 2009)</h4>
+            TA office hours: Tuesday 9:00 - 11:00<br />
+            Location: WVH 316<br />
+            Lab materials: <a href="lab.html">Click here</a>.
+          </div>
+        </div>
+
+        <div id="resume"><a href="cv.pdf">Curriculum Vitae</a></div>
+
+        <div id="sidework"></div>
+
+        <div id="interests">
+          My interests are mostly in the realm of semantics and formal methods, dealing with flow analysis, interactive theorem proving and
+          satisfiability modulo theories (SMT). I have done work with macros and binding specification. A pie in the sky very nice thing to see done
+          would be a theorem prover built in the tower of languages style, with varying levels of abstraction as the tower grows, and an accompanying
+          theory of how one reasons about macros. In my free time, I enjoy playing the piano and continuing my studies in algebra and combinatorics. I
+          also speak Japanese and enjoy movies and video games. I cook and bake <a href="recipes.html">very tasty food</a>.
+
+          <br /><br />
+          I maintain a <a href="http://lifeandmath.blogspot.com/">blog</a> that is sporadically updated with theorems I find interesting, or how I
+          have hacked around a sparsely documented or buggy API/application so that others may use the power of Google to solve their problems.
         </div>
       </div>
 
-
-      <div id="submitted">
-      </div>
-
-      <div id="in-revision">
-        <a name="pushdown"></a><b>Designing Precise Pushdown Higher-Order Flow Analyses.</b>
-        With <a href="http://www.cs.umd.edu/~dvanhorn/">David Van Horn</a>.
-        <div class="pub-links">
-          [<a href="johnson-van-horn-2012.html">Abstract</a>]
-        </div>
-      </div>
+      <div id="footer">Last updated: 2015, April 23</div>
     </div>
-
-
-    <div id="talks">
-      <b>Abstracting Abstract Control</b>
-      <span>At <a href="http://www.dynamic-languages-symposium.org/dls-14/">DLS 2014</a></span>
-      <div class="pub-links">
-        [<a href="dls2014-c.pdf">Slides</a>]
-      </div>
-      <b>Optimizing Abstract Abstract Machines</b>
-      <span>At <a href="http://icfpconference.org/icfp2013/">ICFP 2013</a></span>
-      <div class="pub-links">
-        [<a href="icfp2013-c.pdf">Slides</a>]
-      </div>
-      <b>Concrete Semantics for Pushdown Analysis: The Essence of Summarization.</b>
-      <span>At <a href="http://hopa.cs.rhul.ac.uk/">HOPA 2013</a></span>
-      <div class="pub-links">
-        [<a href="hopa2013.pdf">Slides</a>]
-      </div>
-      <b>Designing Precise Pushdown Higher-Order Flow Analyses.</b>
-      <span>
-        At <a href="http://researcher.watson.ibm.com/researcher/view_project.php?id=3198">IBM PL day 2012</a>
-      </span>
-      <div class="pub-links">
-        [<a href="ibmpl2012-slides.pdf">Slides</a>]
-      </div>
-      <i>All sources to talks are available for education purposes on
-         <a href="https://github.com/deeglaze/ianj-talks">Github</a></i>
-    </div>
-
-
-    <div id="teaching">
-      <div id="teaching-current">
-      </div>
-
-      <div id="teaching-previous">
-<h4>Fundamentals of Computer Science 2 2510 (Summer 2012)</h4>
-TA Office hours: Fridays 13:30-15:30<br />
-Location: WVH 308<br />
-<h4>Compilers 4410 (Spring 2012)</h4>
-TA Office hours: By appointment<br />
-Location: WVH 308<br />
-<h4>Fundamentals of Computer Science 1 2500 (Fall 2011)</h4>
-TA Office hours: Monday 10:00 - 12:00<br />
-Location: WVH 308<br />
-<h4>Fundamentals of Computer Science 2 2510 (Spring 2011)</h4>
-Location: WVH 308<br />
-<h4>Program Design Paradigms 5010 (Fall 2010)</h4>
-TA office hours: Friday 16:30 - 18:30<br />
-Location: WVH 308<br />
-<h4>Logic &amp; Computation 2800 (Spring 2010)</h4>
-TA office hours: Wednesday 9:30 - 10:30 and 12:30 - 13:30<br />
-Location: WVH 316<br />
-<h4>Logic &amp; Computation 2800 (Fall 2009)</h4>
-TA office hours: Tuesday 9:00 - 11:00<br />
-Location: WVH 316<br />
-Lab materials: <a href="lab.html">Click here</a>.
-      </div>
-    </div>
-
-    <div id="resume"><a href="cv.pdf">Curriculum Vitae</a>
-    </div>
-
-    <div id="sidework">
-    </div>
-
-    <div id="interests">
-My interests are mostly in the realm of semantics and formal methods,
-dealing with flow analysis, interactive theorem proving and
-satisfiability modulo theories (SMT). I have done work with macros and
-binding specification. A pie in the sky very nice thing to see done
-would be a theorem prover built in the tower of languages style, with
-varying levels of abstraction as the tower grows, and an accompanying
-theory of how one reasons about macros. In my free time, I enjoy
-playing the piano and continuing my studies in algebra and
-combinatorics. I also speak Japanese and enjoy movies and video
-games. I cook and bake <a href="recipes.html">very tasty food</a>.
-
-<br /><br />
-I maintain a <a href="http://lifeandmath.blogspot.com/">blog</a> that is sporadically updated with theorems I find
-interesting, or how I have hacked around a sparsely documented or buggy
-API/application so that others may use the power of Google to solve
-their problems.
-    </div>
-
-  </div>
-
-  <div id="footer">
-    Last updated: 2015, April 23
-  </div>
-
-</div>
     <p style="text-align: center">
       <a href="http://validator.w3.org/check?uri=referer">
-        <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+        <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88"
+      /></a>
     </p>
-</body>
+  </body>
 </html>
