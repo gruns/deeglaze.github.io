@@ -1,200 +1,145 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Dionna Amalie Glaze",
+    "label": "Senior Software Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "drdeeglaze@gmail.com",
+    "url": "https://deeglaze.github.io",
+    "summary": "An ex-academic tnow working at Google on next generation internet security that enables transparency and privacy at global scale.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "777 6th St S",
+      "postalCode": "WA 98033",
+      "city": "Kirkland",
       "countryCode": "US",
-      "region": "California"
+      "region": "Washington"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Mastodon",
+        "username": "@drdeeglaze@tech.lgbt",
+        "url": "https://tech.lgbt/@drdeeglaze"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Google Cloud",
+      "position": "Senior Software Engineer",
+      "url": "https://cloud.google.com/security/products/confidential-computing",
+      "startDate": "2017-03-06",
+      "endDate": "Now",
+      "summary": "I lead the trust and transparency project for Google-vendored binaries in customer virtual machines. This includes a new code signing pipeline, standards body participation, and software supply chain integrity innovations.",
+      "highlights": ["Transparency"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Internet Engineering Task Force (IETF)",
+      "location": "Wilmington, DE",
+      "position": "RATS working group member",
+      "url": "https://datatracker.ietf.org/wg/rats/about/",
+      "startDate": "2023-11-01",
+      "endDate": "Now",
+      "summary": "I contribute to the design and wording of the CoRIM and CMW formats as well and guideline documentation.",
+      "highlights": ["Logical interpretation of profiles", "Issuance operational guidelines"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Northeastern University",
+      "location": "Boston, MA",
+      "url": "https://www.khoury.northeastern.edu/",
+      "area": "Programming Languages",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "startDate": "2009-09-01",
+      "endDate": "2015-05-25"
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "CISSP",
+      "date": "2024-03-13",
+      "issuer": "ISC2",
+      "url": "https://isc2.org"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "CCSP",
+      "date": "2024-05-14",
+      "issuer": "ISC2",
+      "url": "https://isc2.org"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Optimizing Abstract Abstract Machines",
+      "publisher": "ICFP",
+      "releaseDate": "2013",
+      "url": "https://dl.acm.org/doi/10.1145/2500365.2500604",
+      "summary": "This article contributes a step-by-step process for going from a naive analyzer derived under the abstracting abstract machine approach to an efficient program analyzer. The end result of the process is a two to three order-of-magnitude improvement over the systematically derived analyzer, making it competitive with hand-optimized implementations that compute fundamentally less precise results."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Abstracting Abstract Control",
+      "publisher": "DLS",
+      "releaseDate": "2014",
+      "url": "https://dl.acm.org/doi/10.1145/2661088.2661098",
+      "summary": "  The strength of a dynamic language is also its weakness: run-time flexibility comes at the cost of compile-time predictability. Many of the hallmarks of dynamic languages such as closures, continuations, various forms of reflection, and a lack of static types make many programmers rejoice, while compiler writers, tool developers, and verification engineers lament. The dynamism of these features simply confounds statically reasoning about programs that use them. Consequently, static analyses for dynamic languages are few, far between, and seldom sound."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Pushdown flow analysis with abstract garbage collection",
+      "publisher": "Journal of Functional Programming",
+      "releaseDate": "2014",
+      "url": "https://www.cambridge.org/core/journals/journal-of-functional-programming/article/pushdown-flow-analysis-with-abstract-garbage-collection/92567231A16859F51056AB6F6781ACAE",
+      "summary": " In the static analysis of functional programs, pushdown flow analysis and abstract garbage collection push the boundaries of what we can learn about programs statically. This work illuminates and poses solutions to theoretical and practical challenges that stand in the way of combining the power of these techniques. Pushdown flow analysis grants unbounded yet computable polyvariance to the analysis of return-flow in higher-order programs. Abstract garbage collection grants unbounded polyvariance to abstract addresses which become unreachable between invocations of the abstract contexts in which they were created. Pushdown analysis solves the problem of precisely analyzing recursion in higher-order languages; abstract garbage collection is essential in solving the “stickiness” problem. Alone, our benchmarks demonstrate that each method can reduce analysis times and boost precision by orders of magnitude."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Static Analysis",
+      "level": "Expert"
+    },
+    {
+      "name": "Cryptographic Protocols",
+      "level": "Practitioner"
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Japanese",
+      "fluency": "Conversational",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Theorem proving",
+      "icon": "fa-solid fa-tag"
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Professor David Van Horn",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Ph.D. advisor"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Shanshan Qu",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Software engineering manager"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "gce-tcb-verifier",
+      "summary": "Code-signing and verification tool for virtual firmware",
+      "highlights": ["Confidential Computing"],
+      "startDate": "2023-06-01",
+      "endDate": "Now",
+      "url": "https://github.com/google/gce-tcb-verifier"
     }
   ]
 }
