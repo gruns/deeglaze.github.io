@@ -12,8 +12,10 @@ When AMD contributed the /dev/sev-guest driver to Linux, it was based on ioctls.
 To test Google Compute Engine's support for attestation quality of service controls (anti-DoS) and partner distributions' support for remote attestation, we needed an easy way to collect an attestation report.
 From that need came the initial `client` library.
 To get good unit testing support, I ended up writing a simulator for attestation report signing.
-
 Things kind of snowballed from there.
+
+## Feature history
+
 After we found that attestations were able to be collected, we needed a way to check that they meet the basic requirements of the platform.
 That is, we needed to check the signatures rooted back to AMD in the way we expected.
 Then we wanted to check that other aspects of the report matched some expectations.
@@ -24,8 +26,9 @@ An adjacent team had been developing the infrastructure needed to provision mach
 They weren't deployed yet though, so I needed to manually provision the certificates for all our test machines every time there was a host firmware upgrade (which changes the `TCB_VERSION`).
 I just threw everything into a protocol buffer that I checked into version control and looked up expected certificates by the machine's hostname.
 So far so good.
+But then, trouble hit.
 
-Certificate storytime.
+## Certificate storytime
 AMD published a specification for their Key Distribution Service (KDS), which allows you to fetch the VCEK certificate given a `CHIP_ID`, the `TCB_VERSION` it's versioned against, and which model of chip it is.
 I then made sure that certificates from AMD matched their specification down to every detail of metadata and x.509 certificate extension.
 There's a problem with this however.
@@ -44,7 +47,7 @@ The go-sev-guest verification library requires a workaround flag to not cross-re
 Given that the FMS for the attestation-collector wasn't collected into the report itself, I needed to make the client add that information to the message it created to represent the attestation report.
 AMD says that need will go away in the future, since they're going to update the firmware to include the FMS in the report to not need extra information that the report itself to fetch the correct VCEK certificate.
 
-Security storytime.
+## Security storytime
 The AMD Security Processor (AMD-SP) is the rebranded name of the AMD Platform Security Processor (PSP).
 The PSP is a small ARM chip in the EPYC package that is a bottleneck for measuring AMD SEV-SNP VM launches and for signing attestation reports.
 The host kernel has to manage guest requests from VMs to the chip through serialized locking, so it's possible for one customer to affect another's ability to get an attestation report unless we throttle the requests.
@@ -73,6 +76,8 @@ The solution had some nuances.
 4.  The VMM error code is stored in the upper 32 bits of the host return value, whereas the lower 32 bits are reserved for the firmware error code.
     The kernel had some type mismatch (`int` instead of `__u64`) in its response encoding, and it was returning uninitialized stack memory in some cases.
     The error code piece needed updating in the GHCB specification, and the uninitialized memory bug led to some extra go-sev-guest workaround code.
+
+## Influence and application
 
 The go-sev-guest library design is what our Confidential Computing India team has used as a template for their [go-tdx-guest](https://github.com/google/go-tdx-guest) implementation of the analogous Intel technology stack.
 Both libraries are used in [go-tpm-tools](https://github.com/google/go-tpm-tools) as the lead attestation package for Google Compute Engine (GCE) virtual machines.
