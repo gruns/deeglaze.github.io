@@ -29,6 +29,7 @@ So far so good.
 But then, trouble hit.
 
 ## Certificate storytime
+
 AMD published a specification for their Key Distribution Service (KDS), which allows you to fetch the VCEK certificate given a `CHIP_ID`, the `TCB_VERSION` it's versioned against, and which model of chip it is.
 I then made sure that certificates from AMD matched their specification down to every detail of metadata and x.509 certificate extension.
 There's a problem with this however.
@@ -48,6 +49,7 @@ Given that the FMS for the attestation-collector wasn't collected into the repor
 AMD says that need will go away in the future, since they're going to update the firmware to include the FMS in the report to not need extra information that the report itself to fetch the correct VCEK certificate.
 
 ## Security storytime
+
 The AMD Security Processor (AMD-SP) is the rebranded name of the AMD Platform Security Processor (PSP).
 The PSP is a small ARM chip in the EPYC package that is a bottleneck for measuring AMD SEV-SNP VM launches and for signing attestation reports.
 The host kernel has to manage guest requests from VMs to the chip through serialized locking, so it's possible for one customer to affect another's ability to get an attestation report unless we throttle the requests.
