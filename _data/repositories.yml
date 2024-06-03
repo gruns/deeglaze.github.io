@@ -4,6 +4,8 @@ github_users:
 github_repos:
   - deeglaze/scribble-latex-utils
   - deeglaze/slideshow-helpers
+  - google/gce-tcb-verifier
   - google/go-configfs-tsm
   - google/go-sev-guest
   - google/go-tpm-tools
+  - ietf-rats-wg/draft-ietf-rats-corim
