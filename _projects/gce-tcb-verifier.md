@@ -75,10 +75,9 @@ Luckily for me, we rotate our signing keys essentially every release and therefo
 It is the key identity's separation from the key's certificate that gives rise to the notion of a "signing envelope format".
 The envelope has generic ways of representing
 
-*  unprotected headers: data that can be independently verified or is otherwise not security-relevant
-*  protected headers: data that is included in the signed payload in a documented deterministic manner which is relavent to the security of the message but is not the primary message itself
-*  payload: data that is meant to be protected by the signature
-*  signature: the representation of the signature of the protected headers and payload.
+- unprotected headers: data that can be independently verified or is otherwise not security-relevant
+- protected headers: data that is included in the signed payload in a documented deterministic manner which is relavent to the security of the message but is not the primary message itself
+- payload: data that is meant to be protected by the signature
+- signature: the representation of the signature of the protected headers and payload.
 
 This envelope concept is captured in COSE, a CBOR representation of a signing envelope.
-

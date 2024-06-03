@@ -69,7 +69,7 @@ The solution had some nuances.
     The retry is safe in the throttling case because the message is always the same.
     I convinced AMD to update their GHCB protocol specification to allow for a "good faith" VMM error code to work with the guest.
     The guest can use this code to retry sending a request after some time before failing with a timeout.
-    Since throttling is an expected host response, this allows the guest to make progress given the new key destruction behavior. 
+    Since throttling is an expected host response, this allows the guest to make progress given the new key destruction behavior.
 4.  The VMM error code is stored in the upper 32 bits of the host return value, whereas the lower 32 bits are reserved for the firmware error code.
     The kernel had some type mismatch (`int` instead of `__u64`) in its response encoding, and it was returning uninitialized stack memory in some cases.
     The error code piece needed updating in the GHCB specification, and the uninitialized memory bug led to some extra go-sev-guest workaround code.
