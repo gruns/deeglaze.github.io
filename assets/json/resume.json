@@ -18,6 +18,11 @@
         "network": "Mastodon",
         "username": "@drdeeglaze@tech.lgbt",
         "url": "https://tech.lgbt/@drdeeglaze"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "deeglaze",
+        "url": "https://linkedin.com/in/deeglaze"
       }
     ]
   },
@@ -30,6 +35,27 @@
       "endDate": "Now",
       "summary": "I lead the trust and transparency project for Google-vendored binaries in customer virtual machines. This includes a new code signing pipeline, standards body participation, and software supply chain integrity innovations.",
       "highlights": ["Transparency"]
+    },
+    {
+      "name": "LogicBlox, Inc.",
+      "position": "Software Engineer",
+      "startDate": "2015-06-15",
+      "endDate": "2017-02-25",
+      "summary": "I wrote database query compilers and evaluators that improved common workloads by 1000x."
+    },
+    {
+      "name": "Microsoft Corp",
+      "position": "Software Engineering Intern",
+      "startDate": "2008-06-15",
+      "endDate": "2008-08-30",
+      "summary": "Microsoft Office Sharepoint Server team. Wrote powershell apps and web modals for portal administration."
+    },
+    {
+      "name": "BMT SMS, Inc.",
+      "position": "Software Engineering Intern",
+      "startDate": "2009-06-01",
+      "endDate": "2009-08-30",
+      "summary": "Wrote device drivers for statistics gathering and a standalone statistics visualization tool. Created an application for driving a 1 DoF robot with wave data to test monitoring equipment."
     }
   ],
   "volunteer": [
@@ -53,6 +79,24 @@
       "studyType": "PhD",
       "startDate": "2009-09-01",
       "endDate": "2015-05-25"
+    },
+    {
+      "institution": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "url": "https://utexas.edu",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2005-09-01",
+      "endDate": "2009-05-20"
+    },
+    {
+      "institution": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "url": "https://utexas.edu",
+      "area": "B.S., Pure Mathematics",
+      "studyType": "B.S.",
+      "startDate": "2005-09-01",
+      "endDate": "2009-05-20"
     }
   ],
   "certificates": [
@@ -140,6 +184,14 @@
       "startDate": "2023-06-01",
       "endDate": "Now",
       "url": "https://github.com/google/gce-tcb-verifier"
+    },
+    {
+      "name": "go-sev-guest",
+      "summary": "AMD SEV-SNP attestation report collection and verification.",
+      "highlights": ["Confidential Computing"],
+      "startDate": "2022-04-15",
+      "endDate": "Now",
+      "url": "https://github.com/google/go-sev-guest"
     }
   ]
 }
