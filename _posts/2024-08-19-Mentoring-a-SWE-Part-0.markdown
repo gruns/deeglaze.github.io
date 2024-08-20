@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Mentoring a SWE: Part 0"
+date: 2024-08-19 08:00:00 PDT
+categories: jekyll update
+---
+
 # Mentoring a Software Engineer: Part 0
 
 This is a series of posts I want to start as a way of thinking through how I approach mentoring.
@@ -74,3 +81,4 @@ Therefore, I find that keeping momentum in self improvement requires carrying an
 
 I plan to go into more detail about how I go about achieving my goals as a mentor in later posts.
 Next, I want to detail some goals folks have had (abstractly) and how I went about or would go about getting more information about them.
+
