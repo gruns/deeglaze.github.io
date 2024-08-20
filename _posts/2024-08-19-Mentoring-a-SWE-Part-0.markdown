@@ -2,7 +2,7 @@
 layout: post
 title: "Mentoring a SWE: Part 0"
 date: 2024-08-19 08:00:00 PDT
-categories: jekyll update
+categories: musings mentoring
 ---
 
 # Mentoring a Software Engineer: Part 0
