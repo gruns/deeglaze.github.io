@@ -91,3 +91,4 @@ Similarly, the VLEK does not reference the stepping value.
 The security posture of the signing key with respect to its `TCB_VERSION` is all relative to the productName, so it pays to test the nittiest of gritty details in cryptographic systems.
 
 The GCE-dependent logic that can fuse with the go-sev-guest APIs is implemented in the `gce-tcb-verifier` project.
+The Veraison Attestation Verification Service project is also including go-sev-guest to verify SEV-SNP attestation reports, thanks to Jag Raman at Oracle contributing the plugin.
