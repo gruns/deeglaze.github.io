@@ -19,10 +19,11 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'mini_racer'
     gem 'unicode_utils'
-    gem 'webrick'
+    gem 'webrick', '>= 1.8.2'
 end
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
+    gem 'rexml', '>= 3.3.9'
 end
