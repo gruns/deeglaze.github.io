@@ -44,7 +44,6 @@ A single threat model for multiple technologies.
 We should expect the AMD CCA and RISC-V CoVE patches once they come to further add themselves to this threat model document.
 We converge on founding principles.
 
-
 ## Remote attestation
 
 Before I talk about the potential good of remote (software) attestation, I must first address the elephant in the room.
@@ -90,14 +89,14 @@ It makes _no_ business sense to attack your customers, unless compelled at gunpo
 Confidential Computing is a means of stopping your trusted hosts from being able to comply with blind subpoenas (or other legally questionable data breaches).
 So, how do we make compelled attacks detectable?
 
-* We make it really hard to execute (bad word choice) by closing as many unchecked communication channels as we can.
-* We sign our software to make one-off builds with malware stand out.
-* If a compelled backdoor is forced through the proper channels to roll out to everyone, a good host will try to telegraph its operations:
-  + Make the user experience terrible so the change is noticeable to customer performance metrics.
+- We make it really hard to execute (bad word choice) by closing as many unchecked communication channels as we can.
+- We sign our software to make one-off builds with malware stand out.
+- If a compelled backdoor is forced through the proper channels to roll out to everyone, a good host will try to telegraph its operations:
+  - Make the user experience terrible so the change is noticeable to customer performance metrics.
     If the compelling force is not so callous as to destroy the entire business and perhaps instigate public outrage, they will back off and allow business to restore non-malware to the fleet.
-  + Have a business practice of posting signed binaries at least a couple weeks before they're rolled out to allow for researcher so do binary differential analysis.
+  - Have a business practice of posting signed binaries at least a couple weeks before they're rolled out to allow for researcher so do binary differential analysis.
     A patient compelling force may still be fine with this, since it's expensive to reverse-engineer binaries.
-  + Have a business practice of posting the source code that correspond to its binaries to allow for auditing.
+  - Have a business practice of posting the source code that correspond to its binaries to allow for auditing.
     Compelling force in a non-authoritarian jurisdiction is not permitted to compel publishing false statements, so malware could be caught by audit.
     There are still legally required to _not_ post source code, in the case of vulnerability embargo.
     Embargos are contractual agreements to delay publishing the fix or the vulnerability details ahead of a contractually agreed-upon date as condition to being made aware of the vulnerability and/or its fix.

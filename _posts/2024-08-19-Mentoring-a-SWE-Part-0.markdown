@@ -16,13 +16,13 @@ I am not writing this as instructional material, but if you find value in it, do
 I find a mentor/mentee relationship to be effective when it is goal-oriented and time-bounded.
 When I mentor someone in a professional context, I have three goals, and they're all about helping a mentee with their goals.
 
-Goal 1.  Establish context.
-         A mentee should be seeking a mentor to reach a goal. Am I a good fit to help them reach it?
+Goal 1. Establish context.
+A mentee should be seeking a mentor to reach a goal. Am I a good fit to help them reach it?
 
-Goal 2.  determine the areas that need growth in order to reach the goal.
-         Why do they need help reaching their goal?
+Goal 2. determine the areas that need growth in order to reach the goal.
+Why do they need help reaching their goal?
 
-Goal 3.  nurture that growth with suggestions, encouragement, and check-ins.
+Goal 3. nurture that growth with suggestions, encouragement, and check-ins.
 
 I have the explicit non-goal of presenting a rose-tinted view of myself from the mentee's point of view.
 I don't need to feed my ego with someone that looks up to me.
@@ -63,9 +63,9 @@ If a mentee and I can agree on what to prioritize to work on, then we can get to
 
 I will try to have my mentee internalize the three Hs:
 
-*  Be Humble.
-*  Be Helpful.
-*  Be Hungry.
+- Be Humble.
+- Be Helpful.
+- Be Hungry.
 
 I find that staying humble will improve your relationships with people.
 People are generally more willing to hear you out when they like you.
@@ -81,4 +81,3 @@ Therefore, I find that keeping momentum in self improvement requires carrying an
 
 I plan to go into more detail about how I go about achieving my goals as a mentor in later posts.
 Next, I want to detail some goals folks have had (abstractly) and how I went about or would go about getting more information about them.
-
