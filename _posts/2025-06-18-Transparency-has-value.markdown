@@ -3,6 +3,7 @@ layout: post
 title: "Transparency has value"
 date: 2025-06-18 17:15:00 PDT
 categories: attestation business
+featured: true
 ---
 
 # Trustworthy computation
