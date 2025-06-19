@@ -1,6 +1,8 @@
 github_users:
   - deeglaze
 
+repo_description_lines_max: 2
+
 github_repos:
   - deeglaze/scribble-latex-utils
   - deeglaze/slideshow-helpers
