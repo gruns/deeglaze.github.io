@@ -143,7 +143,6 @@ The interface is not developed to a mature state for broad adoption–it is a su
 The requirement for using the interface is not particularly popular–if we can ensure that the firmware is at a known location on the disk image, can we allow the CSP to launch the user firmware directly without the extra discarded boot sequence?
 We will need to solve these problems for users to have full control of their TCB and for CSPs to provide the best possible experience for their customers.
 
-
 # Conclusion
 
 There are many aspects of transparency, each with their own merits and their own value that confidential computing customers are aware of and have a desire for.
