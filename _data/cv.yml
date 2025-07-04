@@ -26,9 +26,14 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Staff Software Engineer
+      institution: Apple, Inc.
+      year: 2025 - Now
+      description:
+        - Private Cloud Compute attestation services for Apple silicon.
     - title: Senior Software Engineer
       institution: Google LLC
-      year: 2021 - Now
+      year: 2021 - 2025
       description:
         - Lead the virtual firmware code signing and transparency project.
         - Active in IETF standards definitions for code reference values in RATS framework.
@@ -54,7 +59,8 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Todo
+    - title: Software analysis and formal methods
+    - title: Cryptographic protocol verification
 
 - title: Other Interests
   type: list
