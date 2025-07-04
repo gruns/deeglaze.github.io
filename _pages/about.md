@@ -29,7 +29,7 @@ latest_posts:
 
 I'm a software engineer and computer science researcher.
 I've worked on programming languages, computer-aided theorem proving, databases, confidential computing (virtualization), distributed systems, and computer graphics.
-I live in Seattle, Washington and currently work for Apple PrivateCloud Compute.
+I live in Seattle, Washington and currently work for Apple Private Cloud Compute.
 
 My main current project is providing source-to-binary cryptographically verifiable claims that the software you're connecting to is exactly the software you expect to be connecting to.
 The software supply chain problem doesn't end at deliverying binary artifacts-those artifacts must have endorsements of build security and software provenance that are checkable at runtime.
