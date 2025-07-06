@@ -5,11 +5,11 @@
     "image": "",
     "email": "drdeeglaze@gmail.com",
     "url": "https://deeglaze.github.io",
-    "summary": "An ex-academic now working at Google on next generation internet security that enables transparency and privacy at global scale.",
+    "summary": "An ex-academic Xoogler now working at Apple on next generation internet security that enables transparency and privacy for Apple products.",
     "location": {
-      "address": "777 6th St S",
-      "postalCode": "WA 98033",
-      "city": "Kirkland",
+      "address": "333 Dexter Ave N",
+      "postalCode": "WA 98109",
+      "city": "Seattle",
       "countryCode": "US",
       "region": "Washington"
     },
@@ -28,12 +28,19 @@
   },
   "work": [
     {
+      "name": "Apple",
+      "position": "Staff software engineer",
+      "startDate": "2025-07-14",
+      "summary": "Private cloud compute attestation services for Apple silicon",
+      "endDate": "Now",
+    },
+    {
       "name": "Google Cloud",
       "position": "Senior Software Engineer",
       "url": "https://cloud.google.com/security/products/confidential-computing",
       "startDate": "2017-03-06",
-      "endDate": "Now",
-      "summary": "I lead the trust and transparency project for Google-vendored binaries in customer virtual machines. This includes a new code signing pipeline, standards body participation, and software supply chain integrity innovations.",
+      "endDate": "2025-06-25",
+      "summary": "I led the trust and transparency project for Google-vendored binaries in customer virtual machines. This includes a new code signing pipeline, standards body participation, and software supply chain integrity innovations.",
       "highlights": ["Transparency"]
     },
     {
