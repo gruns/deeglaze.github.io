@@ -32,7 +32,7 @@ I've worked on programming languages, computer-aided theorem proving, databases,
 I live in Seattle, Washington and currently work for Apple Private Cloud Compute.
 
 My main current project is providing source-to-binary cryptographically verifiable claims that the software you're connecting to is exactly the software you expect to be connecting to.
-The software supply chain problem doesn't end at deliverying binary artifacts-those artifacts must have endorsements of build security and software provenance that are checkable at runtime.
+The software supply chain problem doesn't end at delivering binary artifacts-those artifacts must have endorsements of build security and software provenance that are checkable at runtime.
 The IETF RATS (RFC9334) framework discusses the concepts.
 I'm making sure that enterprise-managed software can be made transparent to the end user, and doing so in all cases I can.
 
